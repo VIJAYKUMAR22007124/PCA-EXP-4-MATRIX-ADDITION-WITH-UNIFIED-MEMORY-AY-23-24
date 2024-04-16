@@ -6,12 +6,12 @@
 <h1> <align=center> MATRIX ADDITION WITH UNIFIED MEMORY </h3>
   Refer to the program sumMatrixGPUManaged.cu. Would removing the memsets below affect performance? If you can, check performance with nvprof or nvvp.</h3>
 
-## AIM:
+### AIM:
 To perform Matrix addition with unified memory and check its performance with nvprof.
-## EQUIPMENTS REQUIRED:
+### EQUIPMENTS REQUIRED:
 Hardware – PCs with NVIDIA GPU & CUDA NVCC
 Google Colab with NVCC Compiler
-## PROCEDURE:
+### PROCEDURE:
 1.	Setup Device and Properties
 Initialize the CUDA device and get device properties.
 2.	Set Matrix Size: Define the size of the matrix based on the command-line argument or default value.
@@ -37,7 +37,7 @@ Allocate Host Memory
 21.	Reset Device and Exit
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
-## PROGRAM:
+### PROGRAM:
 
 #### WITH MEMSET()
 
@@ -515,7 +515,7 @@ int main(int argc, char **argv)
 }
 ```
 
-## OUTPUT:
+### OUTPUT:
 
 #### WITH MEMSET()
 
